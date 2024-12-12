@@ -1,0 +1,38 @@
+body {
+    background-color: gray;
+}
+
+.envelope {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.top {
+    position: absolute;
+    top: 14%;
+    z-index: 1;
+    width: 0;
+	height: 0;
+	border-left: 50vh solid transparent;
+	border-right: 50vh solid transparent;
+	border-top: 25vh solid green;
+}
+
+.box {
+    position: absolute;
+    width: 100vh;
+    height: 50vh;
+    border: solid red;
+    background-color: red;
+    z-index: 0;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white;
+    width: 10vh;
+}
